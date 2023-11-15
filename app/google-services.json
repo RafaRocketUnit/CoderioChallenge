@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "409940496198",
+    "project_id": "coderiochallengerafa",
+    "storage_bucket": "coderiochallengerafa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:409940496198:android:6b6e58b320fa740bea1f47",
+        "android_client_info": {
+          "package_name": "com.rafarocket.coderiochallenge"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9vpwPFy_F0mp9KRSL-8O1HsuvqX2SQ3g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

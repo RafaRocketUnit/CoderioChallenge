@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_profile"
+        android:icon="@drawable/menandwomen_artist"
+        android:title="@string/title_profile" />
+
+    <item
+        android:id="@+id/navigation_movies"
+        android:icon="@drawable/movies_icon_159164"
+        android:title="@string/title_movies" />
+
+    <item
+        android:id="@+id/navigation_map"
+        android:icon="@drawable/maps"
+        android:title="@string/title_map" />
+
+    <item
+        android:id="@+id/navigation_load_image"
+        android:icon="@drawable/upload"
+        android:title="@string/title_load_image" />
+
+</menu>

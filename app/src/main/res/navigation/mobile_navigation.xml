@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_profile">
+
+    <fragment
+        android:id="@+id/navigation_profile"
+        android:name="com.rafarocket.coderiochallenge.ui.profile.ProfileFragment"
+        android:label="@string/title_profile"
+        tools:layout="@layout/fragment_profile" />
+
+    <fragment
+        android:id="@+id/navigation_movies"
+        android:name="com.rafarocket.coderiochallenge.ui.movies.MoviesFragment"
+        android:label="@string/title_movies"
+        tools:layout="@layout/fragment_movies" />
+
+    <fragment
+        android:id="@+id/navigation_map"
+        android:name="com.rafarocket.coderiochallenge.ui.map.CustomMapFragment"
+        android:label="@string/title_map"
+        tools:layout="@layout/fragment_custom_map" />
+
+    <fragment
+        android:id="@+id/navigation_load_image"
+        android:name="com.rafarocket.coderiochallenge.ui.loadimage.LoadImageFragment"
+        android:label="@string/title_load_image"
+        tools:layout="@layout/fragment_load_image" />
+</navigation>

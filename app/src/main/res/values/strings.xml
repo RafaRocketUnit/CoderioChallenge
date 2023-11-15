@@ -1,0 +1,51 @@
+<resources>
+
+    <!-- App Config and Navigation -->
+    <string name="app_name">CoderioChallenge</string>
+    <string name="title_profile">Profile</string>
+    <string name="title_movies">Movies</string>
+    <string name="title_map">Map</string>
+    <string name="title_load_image">Load Image</string>
+    <string name="api_token_tmdb">
+        Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIyOTg3MDVlYWRlOGNkOGNjYzkyYmQ4NDAwMGU0Yzk4NyIsInN1YiI6
+        IjY1NGQzODEzZmQ0ZjgwMDBjN2ZlZmI2YyIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.wt7Hy1kop
+        m2deEvv6TiJ0I-OJ7_XWfZCYTs0R1_FJLM
+    </string>
+
+
+
+    <!-- General Messages -->
+    <string name="message_no_internet">No internet connection</string>
+    <string name="message_loading">Loading…</string>
+
+    <!--Load Image -->
+    <string name="message_takenorselected_picture">Great picture, Now we are ready to upload</string>
+    <string name="message_must_grant_permissions">You must to grant the permissions to continue!</string>
+    <string name="message_check_permissions">There is a problem, check your permissions then try again</string>
+    <string name="message_picture_loaded">Picture Uploaded!</string>
+    <string name="message_internet_warning">Once your internet is back, your picture will be uploaded.</string>
+    <string name="title_default_load_image">
+        Here you can take a picture with the camera or just select a picture to upload
+    </string>
+    <string name="text_button_take_photo">Take a photo</string>
+    <string name="text_button_select_pic">Select picture</string>
+    <string name="text_button_upload_pic">Upload picture</string>
+
+    <!-- Map -->
+    <string name="message_map_offline">
+        Due to the Google Maps rules, map cannot be persisted to works offline at least you buy a permit.
+        \n https://enterprise.google.com/maps/terms/us/maps_purchase_agreement.html \n
+        once internet get connection, you will be able to see the map.\nAlso,
+        your position will be save once it can retrieve location
+    </string>
+
+    <!-- Movie -->
+    <string name="title_top_rated">Top Rated Movies</string>
+    <string name="title_popular">Popular Movies</string>
+    <string name="title_upcoming">Upcoming Movies</string>
+
+    <!-- Profile -->
+    <string name="name_tag">Name:</string>
+    <string name="know_for_tag">Know for:</string>
+
+</resources>
