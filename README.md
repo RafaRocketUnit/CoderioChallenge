@@ -1,9 +1,19 @@
 # Coderio Coding Challenge By Rafael Bonilla
 - This project was done as a coding challenge for Fetch.
   
-## Screenshot
+## App Screenshot
 |![coderio1](https://github.com/RafaRocketUnit/CoderioChallenge/assets/77510855/3dca7787-d66c-4dfb-ab19-1ebbca1c1d5c)|![coderio2](https://github.com/RafaRocketUnit/CoderioChallenge/assets/77510855/17a34590-96e0-466c-9a0b-33ec101dab74)|![coderio3](https://github.com/RafaRocketUnit/CoderioChallenge/assets/77510855/c3d0cabf-e328-43c3-9284-1d7d61064986)|![coderio4](https://github.com/RafaRocketUnit/CoderioChallenge/assets/77510855/d67ea845-80d0-4d7f-ae45-125d8250151b)|
 |---|---|---|---|
+
+
+## Firebase
+
+- https://console.firebase.google.com/project/coderiochallengerafa
+
+| Location Data | Pictures Data | Stats |
+|---|---|---|
+|![firebaseLocation](https://github.com/RafaRocketUnit/CoderioChallenge/assets/77510855/adc71d06-f41e-4637-b2f0-4ed59a398d98)|![firebasePictures](https://github.com/RafaRocketUnit/CoderioChallenge/assets/77510855/8df94068-c746-4194-afa4-8f570f3fcbde)|![firebaseStats](https://github.com/RafaRocketUnit/CoderioChallenge/assets/77510855/28e18813-1504-4d8a-a4e1-1cdae3742817)|
+
 
 
 ## To use this project: 
