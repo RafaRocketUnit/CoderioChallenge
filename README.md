@@ -1,5 +1,5 @@
 # Coderio Coding Challenge By Rafael Bonilla
-- This project was done as a coding challenge for Fetch.
+- This project was done as a coding challenge for Coderio.
   
 ## App Screenshot
 |![coderio1](https://github.com/RafaRocketUnit/CoderioChallenge/assets/77510855/3dca7787-d66c-4dfb-ab19-1ebbca1c1d5c)|![coderio2](https://github.com/RafaRocketUnit/CoderioChallenge/assets/77510855/17a34590-96e0-466c-9a0b-33ec101dab74)|![coderio3](https://github.com/RafaRocketUnit/CoderioChallenge/assets/77510855/c3d0cabf-e328-43c3-9284-1d7d61064986)|![coderio4](https://github.com/RafaRocketUnit/CoderioChallenge/assets/77510855/d67ea845-80d0-4d7f-ae45-125d8250151b)|
