@@ -27,7 +27,7 @@
 * This project has clean architecture (data, domain, ui)
 * This project is design to works offline after initial time with internet connection.
 * uses Room, firebase, firestore, retrofit, coil and so on... very complete
-* in this initial version is missing all unit testing and automation testing due time range.
+* Contains Unit Testing and Automation testing with Espresso.
 
 #### I hope you enjoy it.
 
