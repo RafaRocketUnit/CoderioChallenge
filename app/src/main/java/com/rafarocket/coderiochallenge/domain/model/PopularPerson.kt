@@ -20,7 +20,11 @@ fun PopularPersonEntity.toPopularPerson(): PopularPerson {
 }
 
 private fun getPersonsList(result: String?): List<Person> {
-    val trade = JsonParser().parse(result).asJsonArray
+    val trade = if (result.isNullOrEmpty())
+        return listOf()
+    else
+        JsonParser().parse(result).asJsonArray
+
     val list = mutableListOf<Person>()
     for (item in trade) {
 
