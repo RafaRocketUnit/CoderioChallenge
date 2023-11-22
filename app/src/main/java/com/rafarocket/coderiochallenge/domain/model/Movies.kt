@@ -17,24 +17,58 @@ data class Movies(
 fun MoviesEntityPopular.toMovies(): Movies {
     val result = transformFromStringToList(results)
     val dates = this.dates?.split(",")
-    return Movies(Dates(dates?.get(0) ?: "" , dates?.get(1) ?: ""), this.page, result, this.total_pages, this.total_results)
+    return Movies(
+        if (dates?.size as Int > 1)
+            Dates(dates[0] , dates[1])
+                    else
+            Dates("", "")
+        ,
+        this.page,
+        result,
+        this.total_pages,
+        this.total_results
+    )
 }
 
 fun MoviesEntityTopRated.toMovies(): Movies {
     val result = transformFromStringToList(results)
     val dates = this.dates?.split(",")
-    return Movies(Dates(dates?.get(0) ?: "" , dates?.get(1) ?: ""), this.page, result, this.total_pages, this.total_results)
+    return Movies(
+        if (dates?.size as Int > 1)
+            Dates(dates[0] , dates[1])
+        else
+            Dates("", "")
+        ,
+        this.page,
+        result,
+        this.total_pages,
+        this.total_results
+    )
 }
 
 fun MoviesEntityUpcoming.toMovies(): Movies {
     val result = transformFromStringToList(results)
     val dates = this.dates?.split(",")
-    return Movies(Dates(dates?.get(0) ?: "" , dates?.get(1) ?: ""), this.page, result, this.total_pages, this.total_results)
+    return Movies(
+        if (dates?.size as Int > 1)
+            Dates(dates[0] , dates[1])
+        else
+            Dates("", "")
+        ,
+        this.page,
+        result,
+        this.total_pages,
+        this.total_results
+    )
 }
 
 private fun transformFromStringToList(result: String): List<Movie> {
     val gson = Gson()
-    val trade = JsonParser().parse(result).asJsonArray
+    val trade = if (result.isNullOrEmpty())
+        return listOf()
+    else
+        JsonParser().parse(result).asJsonArray
+
     val list = mutableListOf<Movie>()
     for (item in trade) {
         list.add(gson.fromJson(gson.toJson(item),Movie::class.java))
